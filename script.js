@@ -49,7 +49,7 @@ function cn(){
 
 setInterval(cn,1500)
 
-
+ document.addEventListener('contextmenu', event => event.preventDefault());
 
 
 
